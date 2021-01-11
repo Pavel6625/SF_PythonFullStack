@@ -1,0 +1,195 @@
+@media screen and (max-width: 1270px) {
+	.intro-info {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;}
+	
+	.intro-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.intro-text {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;}
+
+
+	.services {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.services-info {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		padding: 0;
+		text-align: center;}
+
+	.services-blocks {
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.products-blocks {
+		max-width: 633px;}
+
+
+	.feedback {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+		align-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	.contacts-block {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+@media screen and (max-width: 1202px) {
+	
+	.team-brief {
+		margin-left: auto;
+		margin-right: auto;
+			align-items: center;
+			justify-content: center;}
+
+	.team-member-photo {
+		margin: 0 79px;}
+
+	.team-members {
+		margin-left: auto;
+		margin-right: auto;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;}
+
+	.team-member-brief {
+		margin-left: auto;
+		margin-right: auto;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;}
+
+	}
+
+@media screen and (max-width: 1030px) {
+	.footer-info {
+		flex-wrap: wrap;
+		justify-content: center;}
+	
+	.footer-copyright{
+		margin: 0 auto;
+		padding: 0;}
+
+	.footer-links {
+		margin: 0 auto;
+		padding: 0;}	
+	}
+
+@media screen and (max-width: 1000px) {
+
+	.products-item {
+		width: 100%;
+		text-align: center;}
+
+	}	
+	
+@media screen and (max-width: 820px) {
+
+	.team-buttons {
+		max-width: 590px;
+		justify-content: space-around;}
+
+	.subscribe-form {
+		width: 98vw;
+		margin-left: 1vw;
+		margin-right: 1vw;}
+
+	.feedback-block, 
+	.feedback-form{
+		width: 94vw;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		justify-content: center;}
+
+	.feedback-name, 
+	.feedback-mail {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.feedback-header {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;}
+
+	.feedback-description {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;}
+
+	.feedback-break {
+		margin-left: auto;
+		margin-right: auto;}
+
+	}
+
+@media screen and (max-width: 700px) {
+	
+	.products-blocks {
+		max-width: 633px;}
+	
+	}
+
+@media screen and (max-width: 620px) {
+	
+	.menu-item {
+		width: 50%;
+		text-align: center;}
+
+	.intro-info {
+		width: 100%}
+
+	.intro-heading {
+		font-size: 30px;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.intro-text {
+		font-size: 12px;
+		margin-left: auto;
+		margin-right: auto;}
+
+	.products-blocks {
+		justify-content: center;}
+
+	.subscribe {
+		width:	100vw;
+		height: 360px;}
+
+	.subscribe-header {
+		font-size: 21px;}
+	
+	}
+	
+@media screen and (max-width: 400px) {
+	
+	.menu-item {
+		width: 100%;
+		text-align: center;}
+
+}

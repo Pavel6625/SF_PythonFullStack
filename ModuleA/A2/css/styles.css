@@ -1,0 +1,96 @@
+body {
+	margin: 29px 163px 0 163px;
+	background-color: #F6F2F2;
+	font-family: Microsoft Sans Serif;
+}
+
+.header {
+	width: 1249px;
+	min-height: 89px;
+	
+	background-color: #000000;
+	opacity: 0.8;
+
+	text-align:  center;
+}
+
+.header > a {
+	display: inline-block;
+	min-width: 89px;
+	padding: 37px 10px 37px 10px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.header > a:hover {
+	background-color: #FF3F40;
+}
+
+
+
+
+.info {
+	position: relative;
+	width: 1249px;
+	padding: 102px 0 0 0;
+}
+
+.text {
+	display: inline-block;
+	width: 49%;
+	height: 117px;
+	vertical-align: top;
+
+	color: #000;
+}
+
+.text > h1 {
+	margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.text > p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+	
+	text-align: justify;
+	margin-bottom: 63px;
+
+	color: #000000;
+}
+
+.contact-us {
+	display: inline-block;
+	width: 227px;
+	padding: 17px 0 17px 0;
+	background-color: #FF2D2D;
+		
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.pattern {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
