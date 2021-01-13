@@ -6,7 +6,7 @@ const JSONString = `{"list":[{"name": "Petr","age": "20","prof": "mechanic"},
 
 const jsondata = JSON.parse(JSONString);
 
-result = {list : []}
+result = {list : []};
 
 jsondata.list.forEach(element => {
     result.list.push(element)
