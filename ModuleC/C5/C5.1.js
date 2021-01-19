@@ -19,7 +19,7 @@ const XMLString =`<list>
   </student>
 </list>`;
 
-const students = new DOMParser().parseFromString(XMLString, "text/xml").querySelectorAll('student');
+const students = new DOMParser.parseFromString(XMLString, "text/xml").querySelectorAll('student');
 
 let result = { list: [] };
 

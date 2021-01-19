@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Tahoma";
+    width: 100vw;
+  }
+  
+  .js_btn_load {
+    margin: 20px auto;
+    background-color: blue;
+    color: yellow;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .js_result {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .pic {
+    width: 200px;
+    margin: 0 20px;
+  }
