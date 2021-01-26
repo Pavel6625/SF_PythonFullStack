@@ -69,7 +69,7 @@ btn_node.addEventListener("click", () => {
     displayResult(page, limit);
 });
 
-//получение результата последнего запроса из localStorage
+//Обработчик перезагрузки страницы
 window.addEventListener("load", () => {
     //получение значений полей ввода
     const page = localStorage.getItem("page");
