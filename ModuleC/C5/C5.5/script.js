@@ -16,21 +16,18 @@ function displayResult(page, limit) {
         document.querySelector(".js_result").textContent =
             "Номер страницы и лимит вне диапазона от 1 до 10";
         alert("Номер страницы и лимит вне диапазона от 1 до 10");
-        console.log("Номер страницы и лимит вне диапазона от 1 до 10");
 
         //поле номера страницы некорректно
     } else if (error1) {
         document.querySelector(".js_result").textContent =
             "Номер страницы вне диапазона от 1 до 10";
         alert("Номер страницы вне диапазона от 1 до 10");
-        console.log("Номер страницы вне диапазона от 1 до 10");
 
         //поле значения лимита некорректно
     } else if (error2) {
         document.querySelector(".js_result").textContent =
             "Лимит вне диапазона от 1 до 10";
         alert("Лимит вне диапазона от 1 до 10");
-        console.log("Лимит вне диапазона от 1 до 10");
 
         //ошибок ввода нет, отправляем запрос
     } else {
@@ -41,21 +38,21 @@ function displayResult(page, limit) {
             .then((data) => {
                 let result = "";
                 data.forEach((item) => {
-                    result += `
-                <div class="item">
-                    <img class="pic" alt="Picture" src="${item.download_url}" />
-                    <p class="info">${item.author}</p>
-                </div>
-                `;
-                    res_node.innerHTML = result;
+                  console.log(item);
+                  result += `
+                  <div class="item">
+                    <p class="pic">${item.download_url} - ${item.author}</p>
+                  </div>
+                  `;
                 });
+                res_node.innerHTML = result;
 
                 //запись последних параметров в кэш
                 localStorage.setItem("page", page);
                 localStorage.setItem("limit", limit);
             })
             .catch(() => {
-                console.log("Что-то пошло не так");
+                alert("Что-то пошло не так");
             });
     }
 }
@@ -78,5 +75,7 @@ window.addEventListener("load", () => {
     //загрузка последнего запроса при наличии
     if (page != null && limit != null) {
         displayResult(page, limit);
+        document.querySelector(".js_page").value = page;
+        document.querySelector(".js_limit").value = limit;
     }
 });

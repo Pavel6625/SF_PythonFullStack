@@ -23,12 +23,12 @@
 
 .js_result {
   display: flex;
+  flex-flow: column;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left;
 }
 
 .pic {
-  width: 200px;
   height: auto;
   margin: 0 10px;
 }
