@@ -1,4 +1,4 @@
-# c8
+# C8
 
 ## Project setup
 ```
